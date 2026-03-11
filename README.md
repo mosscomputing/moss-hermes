@@ -1,8 +1,10 @@
 # moss-hermes
 
-MOSS integration for [Nous Research Hermes](https://huggingface.co/NousResearch) agents - cryptographic signing for AI actions.
+MOSS integration for [Nous Research Hermes](https://nousresearch.com) - cryptographic signing for AI agent actions.
 
 **Unsigned agent output is broken output.**
+
+All signatures use **ML-DSA-44** (NIST FIPS 204), the post-quantum cryptographic standard.
 
 [![PyPI](https://img.shields.io/pypi/v/moss-hermes)](https://pypi.org/project/moss-hermes/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -254,7 +256,8 @@ All new signups get a **14-day free trial** of Pro.
 ## Links
 
 - [mosscomputing.com](https://mosscomputing.com) - Project site
-- [dev.mosscomputing.com](https://dev.mosscomputing.com) - Developer Console
+- [app.mosscomputing.com](https://app.mosscomputing.com) - Developer Console
+- [moss-sdk](https://pypi.org/project/moss-sdk/) - Core MOSS SDK
 - [Nous Research](https://nousresearch.com) - Hermes creators
 - [Hermes Models](https://huggingface.co/NousResearch) - HuggingFace
 
