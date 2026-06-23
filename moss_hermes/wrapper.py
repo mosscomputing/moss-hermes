@@ -10,7 +10,7 @@ Example:
     agent = MossHermesWrapper(
         agent=my_hermes_agent,
         agent_id="hermes-assistant",
-        moss_api_key="moss_live_xxx"
+        moss_api_key=os.environ["MOSS_API_KEY"]
     )
     
     # All tool calls are now automatically signed
@@ -37,7 +37,7 @@ class MossHermesWrapper:
         wrapped = MossHermesWrapper(
             agent=model,
             agent_id="hermes-3-assistant",
-            moss_api_key="moss_live_xxx"
+            moss_api_key=os.environ["MOSS_API_KEY"]
         )
     """
     

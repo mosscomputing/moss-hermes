@@ -8,7 +8,7 @@ Example:
     
     monitor = KillSwitchMonitor(
         agent_id="hermes-trading-bot",
-        moss_api_key="moss_live_xxx",
+        moss_api_key=os.environ["MOSS_API_KEY"],
         on_revoked=lambda: sys.exit(1)
     )
     
